@@ -7,11 +7,9 @@ function createPatient(name, ssn) {
     getName() {
       return PII.name;
     },
-    getSSN() {
-      return PII.ssn;
-    },
   };
 }
 const patient = createPatient("Imani Moore", 987654321);
 console.log(patient.getName());
-console.log(patient.getSSN());
+console.log(patient.PII);
+console.log(patient.getSSN);
