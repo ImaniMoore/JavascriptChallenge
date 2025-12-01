@@ -1,6 +1,10 @@
 function exercise(exerciseType) {
   console.log("Todays exercise is " + exerciseType);
 }
-exercise("running");
-exercise("cycling");
-exercise("swimming");
+let running = exercise("running");
+let cycling = exercise("cycling");
+let swimming = exercise("swimming");
+
+running();
+cycling();
+swimming();
